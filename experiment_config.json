@@ -7,7 +7,7 @@
        "gmsc", "heart", "heloc", "pima"
     ],
     "methods": [
-        "control", "grad", "ig", "itg", "sg", "shap", "lime"
+        "control", "grad", "ig", "itg", "sg", "shap", "lime", "lrp"
     ],
     "metrics": [
         "PRA", "RC",
@@ -46,6 +46,9 @@
             "sample_around_instance": true,
             "discretize_continuous": false,
             "seed": 0
+        }, 
+        "lrp": {
+            
         }
     },
     "evaluators": {
@@ -115,6 +118,9 @@
             "batch_size": 16,
             "pos_class_weight": 0.65,
             "mean_pred_bound": 0.3
+        },
+        "lrp": {
         }
+
     }
 }
