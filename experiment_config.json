@@ -3,8 +3,7 @@
         "lr", "ann"
     ],
     "data_names": [
-       "adult", "compas", "gaussian", "german",
-       "gmsc", "heart", "heloc", "pima"
+    "gaussian", "heart", "pima"
     ],
     "methods": [
         "control", "grad", "ig", "itg", "sg", "shap", "lime", "lrp"
